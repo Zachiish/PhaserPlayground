@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+      <title>Game Title</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="active-game.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="topNav">
+      <div class="topNav-Content">
+        <div class="topNav-Logo" onclick="window.location.href = 'index.html'">
+          <h1>Phaser</h1>
+          <p>PLAYGROUND</p>
+        </div>
+      </div>
+
+      <div class="topNav-Links">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Puzzle</a>
+        <a href="#">Action</a>
+        <a href="#">Multiplayer</a>
+        <a href="#">Simulation</a>
+        <a href="#">Sports</a>
+      </div>
+
+      <div class="topNav-Account">
+        <a href="#">Create Account</a>
+        <a href="#"><input type="button" class="signIn-Button" value="Sign In"/></a>
+      </div>
+    </div>
+
+    <div class="gameBodyContainer">
+      <div class="gameInfo">
+        <h1>Space Aliens</h1>
+      </div>
+      <div class="gameContainer" id="gameContainer">
+        
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="topNav-Content">
+        <div class="topNav-Logo">
+          <h1>Phaser</h1>
+          <p>PLAYGROUND</p>
+        </div>
+    </footer>
+
+    <script type="module" src="../spaceAliens.js"></script>
+
+  </body>
+</html>

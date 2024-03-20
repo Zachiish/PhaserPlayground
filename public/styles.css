@@ -1,3 +1,130 @@
 body {
-    font-family: 'Raleway', sans-serif;
-  }
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Top Nav (Header) */
+
+.topNav {
+  width:100%;
+  height: 120px;
+  background-color: #2b2330;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.topNav-Logo {
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.topNav-Logo h1 {
+  font-family: 'Modak', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #fceaae;
+  font-size: 50px;
+  line-height: 5px;
+  margin-bottom: 20px;
+}
+
+.topNav-Logo p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fceaae;
+  letter-spacing: 3px;
+  text-align: center;
+  background-color: #e14928;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.topNav-Links {
+  margin-left: 20px;
+}
+
+.topNav-Links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+  border-radius: 20px;
+  transition: 0.2s ease all;
+}
+
+.topNav-Links .currentPage {
+  color: #e14928;
+  transition: 0.2s ease all;
+}
+
+.topNav-Links .currentPage:hover {
+  color: #e14928;
+  background-color: #1c181f;
+}
+
+.topNav-Links a:hover {
+  color: white;
+  background-color: #1c181f;
+}
+
+.topNav-Account {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 25%;
+  margin-left: 80px;
+  transition: 0.4s ease all;
+}
+
+.topNav-Account a {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  margin-right: 20px;
+  transition: 0.4s ease all;
+}
+
+.topNav-Account a:hover {
+  color: white;
+}
+
+.topNav-Account .signIn-Button {
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: #e14928;
+  border-radius: 10px;
+  color: #fceaae;
+  padding: 10px;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+
+.topNav-Account .signIn-Button:hover {
+  background-color: #e65332;
+  padding: 14px;
+  color: white;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #ebd8ae;
+}
+  
